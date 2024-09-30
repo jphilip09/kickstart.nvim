@@ -284,6 +284,9 @@ require('lazy').setup({
         --     i = { ['<c-enter>'] = 'to_fuzzy_refine' },
         --   },
         -- },
+        defaults = {
+          file_ignore_patterns = { '.build/' },
+        },
         -- pickers = {}
         extensions = {
           ['ui-select'] = {
